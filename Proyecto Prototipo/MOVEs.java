@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MOVEs extends Actor
 {
     int velocidad = 4;
+    int puntos = 0;
     /**
      * Act - do whatever the MOVEs wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

@@ -253,5 +253,23 @@ public class MazeWorld extends World
         boost5.setLocation(212,12);
         enemigoLeaf.setLocation(303,196);
         boost5.setLocation(194,7);
+        boost boost6 = new boost();
+        addObject(boost6,416,50);
+        boost6.setLocation(407,47);
+        boost6.setLocation(574,54);
+        boost6.setLocation(581,58);
+        EnemigoLeaf enemigoLeaf4 = new EnemigoLeaf();
+        addObject(enemigoLeaf4,104,102);
+        enemigoLeaf4.setLocation(100,95);
+        boost boost7 = new boost();
+        addObject(boost7,61,44);
+        boost7.setLocation(54,52);
+        boost boost8 = new boost();
+        addObject(boost8,7,154);
+        boost8.setLocation(7,150);
+        boost2.setLocation(90,202);
+        removeObject(boost2);
+        addObject(boost2,105,160);
+        boost2.setLocation(96,148);
     }
 }
